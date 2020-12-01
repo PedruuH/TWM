@@ -1,0 +1,26 @@
+
+.button{
+    font-size: 1.4em;
+    border-radius: 10%;    
+}
+
+.button:active{
+    background-color: #ccc;
+}
+
+.button.double{
+    grid-column: span 2;
+}
+
+.button.triple{
+    grid-column: span 3;
+     
+}
+
+.button.operation{
+    background-color: green;    
+}
+
+.button.operation:active{
+    background-color: greenyellow;
+}
